@@ -16,6 +16,10 @@ You can install these dependencies using npm:
 `npm install graphql-request fs minimist csv-writer`.
 
 
+## GitHub GraphQL API
+To fully understand how to structure queries and make the best use of the available features, refer to the [GitHub GraphQL API Documentation](https://docs.github.com/en/graphql).
+
+
 ## Usage
 
 To use the script, follow these steps:
@@ -29,8 +33,6 @@ To use the script, follow these steps:
 
 `node index.js --query "your search query" --start "start date" --end "end date" --date "date type" --filename "output filename"`
 
-## Dictionary:
-The code is designed to handle the use of a dictionary for enhancing the collection of repository topics. If a dictionary is not provided, the code will continue extracting without any issues, ensuring uninterrupted processing. The default **dictionary.json** file included with the code contains a set of common tags for mobile development, but it can be easily substituted as needed.
 
 ## Placeholders
 
@@ -39,6 +41,11 @@ The code is designed to handle the use of a dictionary for enhancing the collect
 - **end**: The end date of the search range in YYYY-MM-DD format. By default, it is set to the current date. 
 - **date**: The type of date field to search on. It can be "created", "pushed", or "updated". By default, it is set to "created".
 - **filename**: The base filename for the output JSON and CSV files. By default, it is set to "results".
+
+  
+## Dictionary
+The code is designed to handle the use of a dictionary for enhancing the collection of repository topics. If a dictionary is not provided, the code will continue extracting without any issues, ensuring uninterrupted processing. The default **dictionary.json** file included with the code contains a set of common tags for mobile development, but it can be easily substituted as needed.
+
 
 ## Output
 
