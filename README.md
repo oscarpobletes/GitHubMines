@@ -1,3 +1,8 @@
+[You can find a newer version of this project here:
+https://github.com/ksegla/GitHubMiner
+It allows for batchsize as a parameter and is more efficient (in terms of the date range splitting that we use for queries with more than 1000 results.)
+]
+
 # GitHubMines
 
 GitHubMines is an extraction tool that allows you to perform a search on GitHub and bypass some limits established by GitHub GraphQL API. It retrieves information about repositories based on the provided search query, date range, and other parameters.
